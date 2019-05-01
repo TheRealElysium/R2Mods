@@ -1,0 +1,7 @@
+{
+    "name": "IncreasingChanceShrineReturns",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "After an unsuccessful attempt on a chance shrine, the next attempt will be more likely to succeed.",
+	"dependencies": ["bbepis-BepInExPack-1.3.1"]
+}
