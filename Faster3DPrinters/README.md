@@ -26,7 +26,7 @@ Tired of standing around waiting for 3D printers to convert your items?  Now you
 
 *No, only the host requires this mod to function. It will do nothing if you are not the host.*
 
-*If you encounter version mismatch you can use my other mod: *[SetBuildID](https://thunderstore.io/package/TheRealElysium/SetBuildID/)
+*If you encounter version mismatch you can use my other mod:* [SetBuildID](https://thunderstore.io/package/TheRealElysium/SetBuildID/)
 
 ---
 
