@@ -1,0 +1,7 @@
+{
+    "name": "WaxQuailMultiJump",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/TheRealElysium/R2Mods/tree/master/Faster3DPrinters",
+    "description": "Makes Wax Quail apply to feather jumps.",
+	"dependencies": ["bbepis-BepInExPack-1.3.1"]
+}
