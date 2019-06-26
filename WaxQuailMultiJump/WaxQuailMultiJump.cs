@@ -6,12 +6,12 @@ using Mono.Cecil.Cil;
 
 namespace WaxQuailMultiJump
 {
-    [BepInPlugin("com.Elysium.WaxQuailMultiJump", "WaxQuailMultiJump", "1.0.0")]
+    [BepInPlugin("com.Elysium.WaxQuailMultiJump", "WaxQuailMultiJump", "1.0.1")]
     class WaxQuailMultiJump : BaseUnityPlugin
     {
         public void Awake()
         {
-            IL.EntityStates.GenericCharacterMain.FixedUpdate += il =>
+            IL.EntityStates.GenericCharacterMain.ProcessJump += il =>
             {
                 var c = new ILCursor(il);
 
