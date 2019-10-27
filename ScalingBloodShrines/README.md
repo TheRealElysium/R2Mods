@@ -7,16 +7,24 @@ If the game director is using credits to spawn something, I figure it should at 
 ### How it works
 
 In vanilla, you are rewarded money equal half of the HP you sacrifice to the shrine.
+
 `0.5 * SacrificedHP = money`
+
 This is works fine at the start of the game, but as you progress further
 the cost of things quickly outpaces the rate at which your HP goes up.
 
 ScalingBloodShrines resolves this by using the cost of interactables on the current map to determine how much a blood shrine should reward.
+
 `(((InteractableCost * ConfigAmount) / MaxHP) / 2.18) * SacrificedHP = money`
+
 ConfigAmount default is 4.  This value represents a chest.
+
 This means you will be rewarded with enough money to open 4 chests after having used an entire blood shrine.
+
 This formula has a floor of 0.5 so it will never give you less than what vanilla does.
+
 2.18 represents the entirety of a blood shirne. (0.5 + 0.75 + 0.93)
+
 In a 4 player game, this will likely result in a buff to blood shrines from the very start with the default value.
 
 ### Configuration
