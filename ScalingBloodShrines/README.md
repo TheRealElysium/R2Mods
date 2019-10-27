@@ -4,7 +4,7 @@ This is a simple mod which makes blood shrines viable all the way in to the late
 
 If the game director is using credits to spawn something, I figure it should at least be worthwhile.
 
-### How it works
+## How it works
 
 In vanilla, you are rewarded money equal half of the HP you sacrifice to the shrine.
 
@@ -27,7 +27,7 @@ This formula has a floor of 0.5 so it will never give you less than what vanilla
 
 In a 4 player game, this will likely result in a buff to blood shrines from the very start with the default value.
 
-### Configuration
+## Configuration
 1. **Make sure you run the game with the mod installed to generate the config file**
 2. Navigate to `\Risk of Rain 2\BepInEx\config\`
 3. Open `com.Elysium.ScalingBloodShrines.cfg` in any text editor
@@ -38,12 +38,12 @@ You can also set the setting in-game with the command listed below.
 sbs_chests value (value can be 0.1 or higher, do not recommend going below 1 however.)
 
 
-### Installation Guide
+## Installation Guide
 
 - Copy the `ScalingBloodShrines.dll` file to your BepInEx plugins folder.
 
 
-### FAQ
+## FAQ
 
 **I want to play this with my friends. Do they also need to install this mod?**
 
@@ -56,10 +56,10 @@ sbs_chests value (value can be 0.1 or higher, do not recommend going below 1 how
 *Open up the console window (``ctrl + alt + ` ``). All commands starts with `sbs_` and will autocomplete.*
 
 
-### Bug Reports, Suggestions & Feedback
+## Bug Reports, Suggestions & Feedback
 
 Please feel free to contact me for suggestions/feedback/bug reports on discord *`Elysium#5804`*.
 
-### Changelog
+## Changelog
 
 `1.0.0` - Initial release.
