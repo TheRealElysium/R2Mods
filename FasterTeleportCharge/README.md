@@ -32,6 +32,14 @@ You can also set the setting in-game with the commands listed below.
 | ShowMsg                    |          true |                ftp_chatmsg |
 | InstantCharge              |         false |          ftp_instantcharge |
 
+- AddToRunTime: Adds the time saved from the teleporter charge to the run timer to preserve difficulty time scale.
+
+- ChargeMulti: Multiplier applied to charge interval after the teleporter boss is defeated. (1 = Vanilla)
+
+- ShowMsg: Display a chat message with the amount of time saved when the teleporter is fully charged.
+
+- InstantCharge: Charge the teleporter instantly after the telepoert boss is defeated.
+
 
 ## Installation Guide
 
