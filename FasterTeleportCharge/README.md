@@ -29,8 +29,8 @@ You can also set the setting in-game with the commands listed below.
 | :------------------------- | :-----------: | -------------------------: |
 | AddToRunTime               |          true |           ftp_addtoruntime |
 | ChargeMulti                |             3 |            ftp_chargemulti |
-| ShowMsg                    |          true |                ftp_chatmsg |
 | InstantCharge              |         false |          ftp_instantcharge |
+| ShowMsg                    |          true |                ftp_showmsg |
 
 - AddToRunTime: Adds the time saved from the teleporter charge to the run timer to preserve difficulty time scale.
 
