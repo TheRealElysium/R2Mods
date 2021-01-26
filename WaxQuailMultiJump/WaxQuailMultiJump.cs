@@ -3,9 +3,11 @@ using RoR2;
 using EntityStates;
 using MonoMod.Cil;
 using Mono.Cecil.Cil;
+using R2API.Utils;
 
 namespace WaxQuailMultiJump
 {
+    [NetworkCompatibility(CompatibilityLevel.NoNeedForSync)]
     [BepInPlugin("com.Elysium.WaxQuailMultiJump", "WaxQuailMultiJump", "1.0.1")]
     class WaxQuailMultiJump : BaseUnityPlugin
     {
